@@ -10,12 +10,12 @@ LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
 void main(void)
 {
 
-	printk("Zephyr Example Application %s\n", APP_VERSION_STR);
+	printk("Zephyr Example Application");
 
 
 	while (1) {
 
-		printk("we good bra!");
+		printk("This is the bare minimum bra! \n");
 
 		k_sleep(K_MSEC(1000));
 	}
